@@ -1,0 +1,145 @@
+html, body {
+    background: #f8fafc;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100vw;
+}
+/* Presisi icon eye pada field password */
+.password-eye-wrapper {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: auto;
+}
+
+.filament-login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8fafc;
+}
+
+.filament-login-card {
+    width: 100%;
+    max-width: 28rem;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    padding: 2.5rem 2.2rem 2rem 2.2rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .filament-login-card {
+        padding: 1.5rem 0.7rem 1.2rem 0.7rem;
+    }
+}
+
+.filament-login-card h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.filament-login-card p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #6d28d9;
+    text-align: center;
+}
+
+.filament-input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #e0e7ff;
+    border-radius: 0.75rem;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    background: #f9fafb;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    margin-bottom: 1.1rem;
+    color: #22223b;
+    display: block;
+}
+.filament-input:focus {
+    outline: none;
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 2px #c7d2fe;
+    background: #fff;
+}
+
+.filament-btn {
+    width: 100%;
+    border-radius: 0.75rem;
+    border: 0;
+    color: #fff;
+    background: linear-gradient(90deg, #7c3aed 0%, #a78bfa 100%);
+    padding: 0.85rem 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    box-shadow: 0 2px 8px 0 rgba(124, 58, 237, 0.08);
+    cursor: pointer;
+    transition: filter 0.2s, box-shadow 0.2s;
+    letter-spacing: 0.01em;
+}
+.filament-btn:hover {
+    filter: brightness(1.08);
+    box-shadow: 0 4px 16px 0 rgba(124, 58, 237, 0.13);
+}
+
+.filament-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #6b7280;
+    font-size: 0.97rem;
+    margin-bottom: 0.5rem;
+}
+
+.filament-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid #a5b4fc;
+    border-radius: 0.3rem;
+    accent-color: #7c3aed;
+}
+
+.filament-error {
+    margin-bottom: 1.2rem;
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #991b1b;
+    border-radius: 0.7rem;
+    padding: 0.85rem 1rem;
+    font-size: 0.98rem;
+}
+
+.filament-error ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 0.9rem;
+}
+
+#lk-form-login{
+    margin-top: 1rem;
+}
+
+#lk-form-login label{
+    margin-bottom: 1rem;
+}
